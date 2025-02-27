@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Data Science: Where Mathematics Meets Impact"
+title: "Welcome to My Data Science Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,19 +19,9 @@ During my four years in the Ph.D. program, I conducted research in time series f
 While I ultimately decided to transition out of the program to pursue applied roles in data science and machine learning, my time in the Ph.D. program equipped me with advanced skills in:
 
 - **Machine Learning & AI**: Building and deploying models to solve complex problems.
-
 - **Time Series Forecasting**: Predicting future trends with precision.
-
 - **Data Analysis & Visualization**: Transforming raw data into actionable insights.
-
 - **Research & Problem-Solving**: Tackling open-ended challenges with creativity and curiosity.
-
-## My Interests
-
-- **Machine Learning & AI:** Developing and deploying smart models to solve real-world problems.
-- **Time Series Forecasting:** Predicting future trends using data.
-- **Data Analysis & Visualization:** Transforming analysis into compelling, actionable narratives
-- **Research & Problem-Solving:** Using math and AI to improve decision-making.
 
 ## Beyond the Algorithms
 
