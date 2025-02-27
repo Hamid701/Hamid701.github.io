@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "Italy"
 site_theme               : "default"
-title                    : "Hamid / hamid701"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Hamid"
-description              : &description "personal description"
-url                      : https://hamid701.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+description              : &description "This is Hamid's portfolio"
+URL                      : "https://hamid701.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Hamid701/Hamid701.github.io"
 
@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist, Researcher, and Educator"
   location         : "Rome, Italy"
-  employer         : "Mohammed V University"
+  employer         : # "Mohammed V University"
   uri              : # URL
   email            : "ettayyebi.hamid@example.org" 
 
