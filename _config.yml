@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "Italy"
 site_theme               : "default"
-title                    : "Home"
+title                    : "Hamid's Homepage"
 title_separator          : "-"
 name                     : &name "Hamid"
 description              : &description "This is Hamid's portfolio"
@@ -76,13 +76,13 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+#publication_category:
+# books:
+#    title: 'Books'
+#  manuscripts:
+#    title: 'Journal Articles'    
+#  conferences:
+#    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -294,7 +294,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Rome # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
