@@ -1,7 +1,7 @@
 ---
 title: "Artificial Neural Networks for Forecasting the 24 Hours Ahead of Global Solar Irradiance"
 collection: publications
-category: conference_proceedings
+category: manuscripts
 permalink: /publication/2018-12-20-artificial-neural-networks-forecasting-24-hours-solar-irradiance
 excerpt: 'This paper presents a study on using artificial neural networks to predict global solar irradiance 24 hours ahead, contributing to advancements in renewable energy forecasting.'
 date: 2018-12-20
