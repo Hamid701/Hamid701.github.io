@@ -6,7 +6,7 @@ permalink: /publication/2023-transformer-based-global-horizontal-irradiance-fore
 excerpt: 'This preprint presents a novel approach using transformer-based models for forecasting global horizontal irradiance, focusing on hour-ahead predictions to enhance renewable energy management.'
 date: 2025-01-15
 venue: 'Preprint at ResearchGate'
-slidesurl: ''
+slidesurl: #
 paperurl: 'https://www.researchgate.net/publication/388350500_Transformer-Based_Global_Horizontal_Irradiance_Forecasting_A_Multi-Head_Attention_Approach_for_Hour-Ahead_Predictions'
 citation: 'Ettayyebi, Hamid. (2025). &quot;Transformer-Based Global Horizontal Irradiance Forecasting: A Multi-Head Attention Approach for Hour-Ahead Predictions.&quot; <i>ResearchGate</i>.'
 ---
