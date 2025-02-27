@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# Transforming Data into Insight
-
 Welcome to my data science portfolio. I am a data scientist with a passion for extracting insightful trends from big data and designing models that tackle genuine challenges.
 
 My adventure started in a classroom, as explaining difficult mathematical principles to students made me realize that with each mathematical concept is a tale that can be shared.
