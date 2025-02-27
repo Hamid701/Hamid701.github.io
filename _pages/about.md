@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator with a passion for uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
 
-## My Journey
+## My Journey:
 
 My academic foundation began with a Master’s in Mathematics and Applications, where I graduated at the top of my class. Driven by a curiosity for applied mathematics and its potential to solve real-world challenges, I pursued a Ph.D. in Applied Mathematics, Statistics, and Deep Learning at Mohammed V University.
 
@@ -23,19 +23,19 @@ While I ultimately decided to transition out of the program to pursue applied ro
 - **Data Analysis & Visualization**: Transforming raw data into actionable insights.
 - **Research & Problem-Solving**: Tackling open-ended challenges with creativity and curiosity.
 
-## Beyond the Algorithms
+## Beyond the Algorithms:
 
 As Freeman Dyson once described, thinkers can be classified as "birds" (who see broad connections) or "frogs" (who dive deep into details). I consider myself a "would-be bird", constantly seeking the bigger picture in the vast landscape of data and knowledge. I am fascinated by the philosophical foundations of AI and mathematics. I often ponder questions such as: What makes an algorithm truly "intelligent"? Can mathematical models ever fully capture the complexity of human decision-making? How does data science shape our understanding
 of uncertainty and prediction?
 
-## My work
+## My work:
 
 - Published peer-reviewed research on artificial neural networks for solar energy forecasting.
 - Developed Transformer-based models that significantly improved forecasting accuracy.
 - Contributed to advancing methodologies in renewable energy predictions.
 - Please checkout the portfolio section to see other projects I worked on.
 
-## Let’s Connect
+## Let’s Connect:
 
-I’m always excited to collaborate on new projects, discuss ideas, or explore opportunities at the intersection of data science, AI, and real-world impact. Feel free to reach out or explore my projects.
+I’m always excited to collaborate on new projects, discuss ideas, or explore opportunities at the intersection of data science, AI, and real-world impact. Feel free to reach out via email or LinkedIn or have fun exploring my projects.
 
