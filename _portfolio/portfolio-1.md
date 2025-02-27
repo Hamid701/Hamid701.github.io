@@ -136,11 +136,6 @@ The interactive dashboard provides an intuitive interface for exploring the mode
 - **Time Range Slider**: Focus on specific time periods.
 - **Metrics Display**: Real-time RMSE, nRMSE, MAE and MASE for selected models.
 - **Download**: Download the predictions to your local device as .csv file.
-- 
-### Quick Preview
-<div align="center">
-  <img src="/images/Dash-Preview.gif" alt="Dashboard Demo" width="800"/>
-</div>
 
 ### Full Video Demonstration
 <div align="center">
