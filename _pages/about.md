@@ -9,11 +9,11 @@ redirect_from:
 
 ## Introduction:
 
-Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
-
 <div style="float: right; margin-left: 20px;">
   <img src="/images/header.png" alt="Header" width="300">
 </div>
+
+Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
 
 ## My Journey:
 
