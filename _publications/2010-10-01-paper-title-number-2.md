@@ -6,7 +6,7 @@ permalink: /publication/2018-12-20-artificial-neural-networks-forecasting-24-hou
 excerpt: 'This paper presents a study on using artificial neural networks to predict global solar irradiance 24 hours ahead, contributing to advancements in renewable energy forecasting.'
 date: 2018-12-20
 venue: 'AIP Conference Proceedings'
-slidesurl: ''
+slidesurl: #
 paperurl: 'https://doi.org/10.1063/1.5084983'
 citation: 'Ettayyebi, Hamid and El Himdi, Khalid. (2018). &quot;Artificial Neural Networks for Forecasting the 24 Hours Ahead of Global Solar Irradiance.&quot; <i>AIP Conference Proceedings</i>. 2056(1): 020010.'
 ---
