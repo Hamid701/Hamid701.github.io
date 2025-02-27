@@ -3,7 +3,7 @@ title: "Artificial Neural Networks for Forecasting the 24 Hours Ahead of Global 
 collection: talks
 type: "Talk"
 permalink: /talks/2018-05-08-hourly-solar-forecasting
-venue: "International Conference: Mathematical Modeling with Applications (M2A19)"
+venue: "International Conference: Mathematical Modeling with Applications (M2A19) and International Congress on Solar Energy Research, Technology, and Applications"
 date: 2019-04-04
 location: "Rabat, Morocco"
 ---
