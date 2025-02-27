@@ -7,35 +7,45 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my data science portfolio. I am a data scientist with a passion for extracting insightful trends from big data and designing models that tackle genuine challenges.
+## Introduction:
 
-My adventure started in a classroom, as explaining difficult mathematical principles to students made me realize that with each mathematical concept is a tale that can be shared.
-This made me turn towards data science - a field in which maths is used to convert raw data into insightful narratives.
+Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator with a passion for uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
 
+## My Journey
 
-## My Data Science Philosophy
+My academic foundation began with a Master’s in Mathematics and Applications, where I graduated at the top of my class. Driven by a curiosity for applied mathematics and its potential to solve real-world challenges, I pursued a Ph.D. in Applied Mathematics, Statistics, and Deep Learning at Mohammed V University.
 
-I believe that good data science is fundamentally a mix between technical proficiency and functional application. I bring mathematical solidity combined with innovative application
-in machine learning in a bid to create solutions that are not merely sound in theory but that deliver quantifiable impacts.
+During my four years in the Ph.D. program, I conducted research in time series forecasting and deep learning models for solar energy predictions. My work focused on developing and optimizing artificial neural networks, achieving significant improvements in forecasting accuracy. This research has direct implications for sustainable energy management and renewable energy systems.
+While I ultimately decided to transition out of the program to pursue applied roles in data science and machine learning, my time in the Ph.D. program equipped me with advanced skills in:
 
-What drives my work is understanding ways in which I can uncover hidden relationships in data, whether that is with attention models that are able to capture weak temporal
-dependencies in time series, or with models that are not merely predicting, but are providing us with understanding.
+- **Machine Learning & AI**: Building and deploying models to solve complex problems.
 
-## Areas of Expertise
+- **Time Series Forecasting**: Predicting future trends with precision.
 
-My focus in data science spans several interconnected domains:
+- **Data Analysis & Visualization**: Transforming raw data into actionable insights.
 
-- **Time Series Analysis & Forecasting**: Developing advanced predictive models that capture complex temporal patterns
-- **Deep Learning Architecture Design**: Adapting and optimizing neural network architectures for specialized applications
-- **Statistical Modeling**: Blending classical statistical methods with modern machine learning approaches
-- **Data Visualization & Storytelling**: Transforming analysis into compelling, actionable narratives
+- **Research & Problem-Solving**: Tackling open-ended challenges with creativity and curiosity.
 
-I am particularly interested in understanding how a methodology from a particular field can be transferred into another - i.e. applying models from NLP developed with a transformer
-architecture in time series forecasting challenges.
+## My Interests
+
+- **Machine Learning & AI:** Developing and deploying smart models to solve real-world problems.
+- **Time Series Forecasting:** Predicting future trends using data.
+- **Data Analysis & Visualization:** Transforming analysis into compelling, actionable narratives
+- **Research & Problem-Solving:** Using math and AI to improve decision-making.
 
 ## Beyond the Algorithms
 
-Most engaging about data science is not necessarily making effective models, but models that have impact. I'm interested in challenges in which more accurate predictions have direct application in the real world.
+As Freeman Dyson once described, thinkers can be classified as "birds" (who see broad connections) or "frogs" (who dive deep into details). I consider myself a "would-be bird", constantly seeking the bigger picture in the vast landscape of data and knowledge. I am fascinated by the philosophical foundations of AI and mathematics. I often ponder questions such as: What makes an algorithm truly "intelligent"? Can mathematical models ever fully capture the complexity of human decision-making? How does data science shape our understanding
+of uncertainty and prediction?
 
-Throughout this website, you can see examples of how I've implemented these principles in a variety of projects and research projects.
-I welcome you to browse around and get in touch with me if you have interest in discussing data science challenges, methods, or collaborating.
+## My work
+
+- Published peer-reviewed research on artificial neural networks for solar energy forecasting.
+- Developed Transformer-based models that significantly improved forecasting accuracy.
+- Contributed to advancing methodologies in renewable energy predictions.
+- Please checkout the portfolio section to see other projects I worked on.
+
+## Let’s Connect
+
+I’m always excited to collaborate on new projects, discuss ideas, or explore opportunities at the intersection of data science, AI, and real-world impact. Feel free to reach out or explore my projects.
+
