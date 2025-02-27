@@ -58,10 +58,10 @@ The dataset consists of **hourly GHI** from 2006 to 2015 for Rabat, Morocco (33.
 
 Below is a visualization of the hourly Global Horizontal Irradiance (GHI) data and it's hourly distribution for the site Rabat, highlighting its variability over time.
 <div align="center">
-  <img src="files\ghi_vs_time.png" alt="Time Series Visualization" width="45%">
-  <img src="files\GHI_Distribution_by_Hour.png" alt="GHI Distribution by Hour" width="45%"/>
-  <img src="files\Average_GHI_by_Month.png" alt="Average GHI by Month" width="45%">
-  <img src="files\GHI_Distribution_by_Season.png" alt="GHI Distribution by Season" width="45%"/>
+  <img src="images\ghi_vs_time.png" alt="Time Series Visualization" width="45%">
+  <img src="images\GHI_Distribution_by_Hour.png" alt="GHI Distribution by Hour" width="45%"/>
+  <img src="images\Average_GHI_by_Month.png" alt="Average GHI by Month" width="45%">
+  <img src="images\GHI_Distribution_by_Season.png" alt="GHI Distribution by Season" width="45%"/>
 </div>
 
 1. **Daily Pattern**:
@@ -83,7 +83,7 @@ The Transformer model uses a multi-head attention mechanism to capture both shor
 - **Linear Layer**: Projects the final representation into a scalar value for GHI prediction.
 
 <div align="center">
-  <img src="files\Transformer_str.png" alt=" Transformer architecture for forecasting one hour ahead of global horizontal irradiance (GHI)." width="700"/>
+  <img src="images\Transformer_str.png" alt=" Transformer architecture for forecasting one hour ahead of global horizontal irradiance (GHI)." width="700"/>
 </div>
 
 ### Training Process
@@ -93,8 +93,8 @@ The Transformer model uses a multi-head attention mechanism to capture both shor
 The training history of the Transformer and LSTM models is shown below. Notice how the Transformer converges faster and achieves lower validation errors.
 
 <div align="center">
-  <img src="files\Transformer_training_history_20250211_124625.png" alt="Transformer Training History" width="45%"/>
-  <img src="files\LSTM_training_history_20250211_124625.png" alt="LSTM Training History" width="45%"/>
+  <img src="images\Transformer_training_history_20250211_124625.png" alt="Transformer Training History" width="45%"/>
+  <img src="images\LSTM_training_history_20250211_124625.png" alt="LSTM Training History" width="45%"/>
 </div>
 
 ---
@@ -103,7 +103,7 @@ The training history of the Transformer and LSTM models is shown below. Notice h
 The diagram below illustrates our ML pipeline architecture for processing GHI data:
 
 <div align="center">
-  <img src="files\data_flow.png" alt="Data flow" width="70%"/>
+  <img src="images\data_flow.png" alt="Data flow" width="70%"/>
 </div>
 
 
@@ -122,7 +122,7 @@ Evaluation Metrics:
 | **Persistence**       | 42.85 | 24.45     | 33.07 | 0.70  | 
 
 <div align="center">
-  <img src="files\Model_Performance_Comparison.png" alt="Model Performance Comparison" width="70%"/>
+  <img src="images\Model_Performance_Comparison.png" alt="Model Performance Comparison" width="70%"/>
 </div>
 
 These results highlight the Transformer's superior ability to capture complex temporal patterns, making it ideal for solar energy forecasting.
@@ -139,7 +139,7 @@ The interactive dashboard provides an intuitive interface for exploring the mode
 - 
 ### Quick Preview
 <div align="center">
-  <img src="files/Dash-Preview.gif" alt="Dashboard Demo" width="800"/>
+  <img src="images/Dash-Preview.gif" alt="Dashboard Demo" width="800"/>
 </div>
 
 ### Full Video Demonstration
