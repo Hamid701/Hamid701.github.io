@@ -3,7 +3,7 @@ title: "Artificial Neural Networks for Forecasting One-Day-Ahead Global Solar Ir
 collection: talks
 type: "Talk"
 permalink: /talks/2018-02-27-solar-forecasting-1
-venue: "2nd International Conference on Smart Applications and Data Analysis for Smart Cities"
+venue: ""2nd International Conference on Smart Applications and Data Analysis for Smart Cities""
 date: 2018-02-27
 location: "Casablanca, Morocco"
 ---
