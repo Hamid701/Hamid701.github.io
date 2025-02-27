@@ -1,7 +1,7 @@
 ---
 title: "Transformer-Based Global Horizontal Irradiance Forecasting: A Multi-Head Attention Approach for Hour-Ahead Predictions"
 collection: publications
-category: preprints
+category: manuscripts
 permalink: /publication/2023-transformer-based-global-horizontal-irradiance-forecasting
 excerpt: 'This preprint presents a novel approach using transformer-based models for forecasting global horizontal irradiance, focusing on hour-ahead predictions to enhance renewable energy management.'
 date: 2025-01-15
