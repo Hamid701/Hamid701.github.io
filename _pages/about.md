@@ -10,7 +10,7 @@ redirect_from:
 ## Introduction:
 
 <div style="float: right; margin-left: 20px;">
-  <img src="/images/header.png" alt="Header" width="40%>
+  <img src="/images/header.png" alt="Header" width=40%>
 </div>
 
 Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
