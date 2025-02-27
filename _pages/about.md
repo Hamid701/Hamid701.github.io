@@ -9,7 +9,7 @@ redirect_from:
 
 ## Introduction:
 
-Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator with a passion for uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
+Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
 
 ## My Journey:
 
@@ -33,7 +33,7 @@ of uncertainty and prediction?
 - Published peer-reviewed research on artificial neural networks for solar energy forecasting.
 - Developed Transformer-based models that significantly improved forecasting accuracy.
 - Contributed to advancing methodologies in renewable energy predictions.
-- Please checkout the portfolio section to see other projects I worked on.
+- Explore the Portfolio section to see other projects I’ve worked on.
 
 ## Let’s Connect:
 
