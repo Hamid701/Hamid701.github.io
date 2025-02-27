@@ -2,9 +2,9 @@
 title: "Artificial Neural Networks for Forecasting the 24 Hours Ahead of Global Solar Irradiance"
 collection: talks
 type: "Talk"
-permalink: /talks/2018-05-08-hourly-solar-forecasting-2
-venue: "International Congress on Solar Energy Research, Technology, and Applications"
-date: 2018-05-08
+permalink: /talks/2018-05-08-hourly-solar-forecasting
+venue: "International Conference: Mathematical Modeling with Applications (M2A19)"
+date: 2019-04-04
 location: "Rabat, Morocco"
 ---
 
@@ -17,3 +17,7 @@ Building on our previous research, which identified Artificial Neural Networks (
 ANNs have been widely demonstrated to excel in predicting weather-related time series data. In this study, we examined the performance of MLP, a commonly used ANN structure in renewable energy forecasting. The results showed that ANN models outperformed linear approaches, providing more accurate predictions for 24-hour-ahead global solar irradiance.
 
 This work underscores the potential of ANNs in improving short-term solar energy forecasting, offering valuable insights for optimizing energy management in smart grids and advancing renewable energy integration.
+
+---
+
+<a href="/files/slides-hourly-solar-forecasting.pdf" download class="btn btn--primary">Download Slides</a>
