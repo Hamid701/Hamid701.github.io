@@ -6,7 +6,7 @@ permalink: /publication/2018-05-29-artificial-neural-network-forecasting-global-
 excerpt: 'This paper explores the use of artificial neural networks for forecasting solar irradiance one day ahead, a critical aspect for optimizing renewable energy systems.'
 date: 2018-05-29
 venue: 'Smart Application and Data Analysis for Smart Cities (SADASC''18)'
-slidesurl: ''
+slidesurl: #
 paperurl: 'http://dx.doi.org/10.2139/ssrn.3187061'
 citation: 'Ettayyebi, Hamid and El Himdi, Khalid. (2018). &quot;Artificial Neural Network for Forecasting One Day Ahead of Global Solar Irradiance.&quot; <i>Smart Application and Data Analysis for Smart Cities (SADASC&apos;18)</i>.'
 ---
