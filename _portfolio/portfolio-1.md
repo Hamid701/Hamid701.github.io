@@ -1,6 +1,7 @@
 ---
 title: "Can AI Predict the Future of Solar Energy?"
-excerpt: "Discover how Transformer-based AI models are revolutionizing solar energy forecasting, enabling smarter grids, reducing costs, and accelerating the transition to renewable energy.<br/><img src='/images/transformer.jpg' style='float:right; margin:10px; width:350px; border-radius: 20px;'>"
+excerpt: "Discover how Transformer-based AI models are revolutionizing solar energy forecasting,
+enabling smarter grids, reducing costs, and accelerating the transition to renewable energy.<br/><img src='/images/transformer.jpg' style='float:right; margin:10px; width:350px; border-radius: 20px;'>"
 collection: portfolio
 ---
 
