@@ -17,7 +17,7 @@ Solar energy is inherently intermittent due to its dependence on weather conditi
 - **Reduced operational costs** : Minimizing reliance on backup power sources.
 - **Improved energy planning** : Enhancing decision-making for energy storage and distribution.
 
-### Objectif
+### Objective
 This study implements advanced time series forecasting models to predict **(GHI)** using hourly
 historical data. The implementation includes state-of-the-art models such as **Transformer** and **LSTM**,
 which focus on parallelization and handling long-term dependencies in time series data.
