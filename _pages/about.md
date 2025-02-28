@@ -37,5 +37,5 @@ of uncertainty and prediction?
 
 ## Let’s Connect:
 
-I’m always excited to collaborate on new projects, discuss ideas, or explore opportunities at the intersection of data science, AI, and real-world impact. Feel free to reach out via email or LinkedIn or have fun exploring my projects.
+I’m always excited to collaborate on new projects, discuss ideas, or explore opportunities at the intersection of data science, AI, and real-world impact. Feel free to reach out via email or LinkedIn or have fun exploring my projects. 
 
