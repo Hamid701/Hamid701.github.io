@@ -4,7 +4,7 @@ excerpt: "Discover how Transformer-based AI models are revolutionizing solar ene
 collection: portfolio
 ---
 
-## Overview
+## Overview 
 As the world grapples with the challenges of global warming, renewable energy sources like solar power are becoming increasingly critical. However, integrating solar energy into electricity grids requires **accurate forecasting** of solar resources to balance supply and demand efficiently. Traditional forecasting models, such as ARIMA and LSTM, have shown promise but face limitations in handling long-term dependencies and computational efficiency.
 
 In this project, I introduce a **novel Transformer-based approach** for **Global Horizontal Irradiance (GHI)** forecasting. By leveraging the **multi-head attention mechanism**, this model eliminates the sequential training bottleneck of recurrent models, enabling parallel processing and significantly improving both accuracy and training speed. The results demonstrate a **20% reduction in Root Mean Squared Error (RMSE)** compared to **LSTM models**, making it a game-changer for solar energy forecasting.
