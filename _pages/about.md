@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to My Data Science Portfolio"
+title: "Welcome to My Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,7 +11,7 @@ redirect_from:
 
 <img src="/images/header3.jpg" alt="Headere" style="float:right; margin:10px; width:350px; border-radius: 20px;">
 
-Welcome to my data science portfolio. I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
+I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
 
 ## My Journey: 
 
