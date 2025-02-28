@@ -1,6 +1,6 @@
 ---
 title: "Can AI Predict the Future of Solar Energy?"
-excerpt: "<img src='/images/transformer.jpg' style='float:right; margin:10px; width:400px; border-radius: 20px;'> <br/> Solar energy is key to fighting climate change, but its variability makes it hard to rely on. Accurate forecasts of sunlight (GHI) are essential for better energy planning, reducing costs, and improving grid stability. Discover how Transformer-based AI models are revolutionizing solar energy forecasting,"
+excerpt: "<img src='/images/transformer.jpg' style='float:right; margin:10px; width:400px; border-radius: 20px;'> <br/> Solar energy is key to fighting climate change, but its variability makes it hard to rely on. Accurate forecasts of sunlight (GHI) are essential for better energy planning, reducing costs, and improving grid stability. Discover how Transformer-based AI models are revolutionizing solar energy forecasting. This project introduces a new Transformer-based model to predict sunlight more accurately and efficiently than traditional methods. It achieves a 20% improvement in accuracy, helping energy providers integrate solar power more effectively."
 collection: portfolio
 ---
 
