@@ -4,8 +4,6 @@ excerpt: "Discover how Transformer-based AI models are revolutionizing solar ene
 collection: portfolio
 ---
 
-# Revolutionizing Solar Energy Forecasting with Transformer-Based Models
-
 ## Overview
 As the world grapples with the challenges of global warming, renewable energy sources like solar power are becoming increasingly critical. However, integrating solar energy into electricity grids requires **accurate forecasting** of solar resources to balance supply and demand efficiently. Traditional forecasting models, such as ARIMA and LSTM, have shown promise but face limitations in handling long-term dependencies and computational efficiency.
 
