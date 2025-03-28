@@ -109,8 +109,8 @@ Before diving into cleaning, here's what the raw dataset looked like:
 | description | Detailed text description of the property | Piazza San Camillo De Lellis, nella signorile... |
 | Riferimento e Data annuncio | Reference ID and listing date | ADR9 - 07/03/2023 |
 | contratto | Contract type (e.g., "Affitto" = Rent) | Affitto, libero |
-| tipologia | Property type (e.g., Apartment, House) | Appartamento | Intera proprietà |
-| superficie | Surface area with commercial measurements | 60 m² | commerciale 68 m² |
+| tipologia | Property type (e.g., Apartment, House) | Appartamento, Intera proprietà |
+| superficie | Surface area with commercial measurements | 60 m², commerciale 68 m² |
 | locali | Detailed breakdown of rooms and layout | 3 (2 camere da letto, 1 altro), 1 bagno |
 | totale piani edificio | Total floors in the building | 10 piani |
 | Posti Auto | Parking spaces available | 1 in garage/box |
