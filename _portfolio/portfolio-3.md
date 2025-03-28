@@ -32,45 +32,55 @@ collection: portfolio
 
 ## The Journey Behind the Numbers
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <div style="flex: 1;">
-    <p>Have you ever moved to a new city and wondered if you're paying too much for rent? That question hit me when I was planning a move to Italy. With rental prices varying wildly across different regions and cities, I needed a way to cut through the confusion and find fair prices.</p>
-    <p>That's how Rentelligence AI was born - a data science project that turned into a practical tool for anyone navigating the Italian rental market. What started as a personal quest to understand fair rental prices evolved into a comprehensive analysis of over 20,000 listings across the country, revealing fascinating patterns about how location, timing, and property features influence what Italians pay for housing.</p>
-    <p>Whether you're a renter wondering if you're getting a fair deal, a property owner trying to set the right price, or a newcomer to Italy facing an unfamiliar market, this tool provides data-driven insights to help you make informed decisions. It's also valuable for investors seeking the best rental returns and anyone curious about Italy's diverse housing landscape, from the expensive financial hub of Milan to the charming, affordable towns of southern Italy.</p>
-    <p><a href="https://rentelligence-ai.streamlit.app" style="display: inline-block; background-color: #FF4B4B; color: white; padding: 8px 16px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: all 0.3s ease;">✨ Try Rentelligence AI</a></p>
-  </div>
-  <div style="flex: 1;">
-    <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
-      <img src="./images/header.jpg" alt="Italian Rental Market Analysis" width="59%" style="border-radius: 15px; transition: opacity 0.3s ease;">
-    </div>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%;">
+      <p>Have you ever moved to a new city and wondered if you're paying too much for rent? That question hit me when I was planning a move to Italy. With rental prices varying wildly across different regions and cities, I needed a way to cut through the confusion and find fair prices.</p>
+      <p>That's how Rentelligence AI was born - a data science project that turned into a practical tool for anyone navigating the Italian rental market. What started as a personal quest to understand fair rental prices evolved into a comprehensive analysis of over 20,000 listings across the country, revealing fascinating patterns about how location, timing, and property features influence what Italians pay for housing.</p>
+      <p>Whether you're a renter wondering if you're getting a fair deal, a property owner trying to set the right price, or a newcomer to Italy facing an unfamiliar market, this tool provides data-driven insights to help you make informed decisions. It's also valuable for investors seeking the best rental returns and anyone curious about Italy's diverse housing landscape, from the expensive financial hub of Milan to the charming, affordable towns of southern Italy.</p>
+      <p>
+        <a href="https://rentelligence-ai.streamlit.app" style="display: inline-block; background-color: #FF4B4B; color: white; padding: 8px 16px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+          ✨ Try Rentelligence AI
+        </a>
+      </p>
+    </td>
+    <td style="vertical-align: top;">
+      <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+        <img src="/images/header.jpg" alt="Italian Rental Market Analysis" width="3000px" style="border-radius: 15px; transition: opacity 0.3s ease;">
+      </div>
+    </td>
+  </tr>
+</table>
+
 
 ## 1. Project Overview
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <div style="flex: 1;">
-    <p>Rentelligence AI is a machine learning application that predicts rental prices for properties across Italy. It combines geographic data visualization with predictive modeling to help users:</p>
-    <ul>
-      <li>Explore average rental prices across different Italian regions</li>
-      <li>Get personalized price estimates based on property features</li>
-      <li>Make more informed decisions when searching for rentals</li>
-    </ul>
-    <p>The project uses XGBoost regression to deliver accurate price predictions based on location, property size, amenities, and other key features.</p>
-    <p><strong>Tech Stack:</strong></p>
-    <ul>
-      <li>Python (pandas, numpy, scikit-learn, XGBoost)</li>
-      <li>Streamlit for the web application</li>
-      <li>GeoPandas and Folium for geographic visualization</li>
-      <li>Docker for containerization</li>
-    </ul>
-  </div>
-  <div style="flex: 1;">
-    <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
-      <img src="./images/header2.jpg" alt="Italy Rental Market Map" width="61%" style="border-radius: 15px; transition: opacity 0.3s ease;">
-    </div>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding-right: 20px;">
+      <p>Rentelligence AI is a machine learning application that predicts rental prices for properties across Italy. It combines geographic data visualization with predictive modeling to help users:</p>
+      <ul>
+        <li>Explore average rental prices across different Italian regions</li>
+        <li>Get personalized price estimates based on property features</li>
+        <li>Make more informed decisions when searching for rentals</li>
+      </ul>
+      <p>The project uses XGBoost regression to deliver accurate price predictions based on location, property size, amenities, and other key features.</p>
+      <p><strong>Tech Stack:</strong></p>
+      <ul>
+        <li>Python (pandas, numpy, scikit-learn, XGBoost)</li>
+        <li>Streamlit for the web application</li>
+        <li>GeoPandas and Folium for geographic visualization</li>
+        <li>Docker for containerization</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top;">
+      <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+        <img src="/images/header2.jpg" alt="Italy Rental Market Map" width="1300px" style="border-radius: 15px; transition: opacity 0.3s ease;">
+      </div>
+    </td>
+  </tr>
+</table>
+
 
 ## 2. Data Overview: From Raw Listings to Insights
 
@@ -205,7 +215,7 @@ Using GeoPandas and Folium, we created an interactive choropleth map that shows:
 ### Regional Price Comparison
 
 <p align="center">
-  <img src="./images/regional_price_bar_chart.png" alt="Average Rental Prices by Region in Italy" width="60%">
+  <img src="/images/regional_price_bar_chart.png" alt="Average Rental Prices by Region in Italy" width="60%">
 </p>
 
 The chart shows that there are essentially two rental markets in the country.
@@ -221,7 +231,7 @@ As we move down the chart, we see rental prices gradually decline through the ce
 ### Static Choropleth Map
 
 <p align="center">
-  <img src="./images/italy_rental_price_map.png" alt="Italy Rental Price Map" width="50%">
+  <img src="/images/italy_rental_price_map.png" alt="Italy Rental Price Map" width="50%">
 </p>
 
 The map above clearly illustrates the concentration of high rental prices in northern regions like Lombardia and Toscana, as well as in Sardegna, while highlighting more affordable options in central and southern regions.
@@ -238,7 +248,7 @@ This map tells an old story about Italy: rich north, middle-priced center, and m
 ### Price Efficiency Analysis
 
 <p align="center">
-  <img src="./images/price_per_sqm_map.png" alt="Average Rental Price per Square Meter by Region in Italy" width="50%">
+  <img src="/images/price_per_sqm_map.png" alt="Average Rental Price per Square Meter by Region in Italy" width="50%">
 </p>
 
 The price per square meter chart above reveals a different perspective on value. Lombardia stands out with the darkest blue, indicating renters pay over €24 per square meter - the highest in Italy. This efficiency metric highlights where renters get the least space for their money.
@@ -254,7 +264,7 @@ Our temporal analysis revealed fascinating patterns in Italy's rental market tha
 ### Monthly Price Patterns
 
 <p align="center">
-  <img src="./images/rental_prices_by_month.png" alt="Rental Prices by Month" width="60%">
+  <img src="/images/rental_prices_by_month.png" alt="Rental Prices by Month" width="60%">
 </p>
 
 The monthly price chart reveals clear seasonal patterns in Italy's rental market. Both mean and median prices follow similar trajectories throughout the year, with notable peaks in November-January and July-August. This dual-peak pattern reflects Italy's academic calendar and tourism seasons:
@@ -268,7 +278,7 @@ The consistent gap between mean and median prices (approximately €400-500) ind
 ### Seasonal Analysis
 
 <p align="center">
-  <img src="./images/average_rental_prices_by_season.png" alt="Average Rental Prices by Season" width="60%">
+  <img src="/images/average_rental_prices_by_season.png" alt="Average Rental Prices by Season" width="60%">
 </p>
 
 Breaking down prices by season reveals that Winter (1) and Fall (4) command the highest rental prices in Italy, averaging over €1,250 per month. This contradicts the common assumption that summer would be the most expensive season.
@@ -284,7 +294,7 @@ This pattern suggests strategic timing for those planning moves to Italy, with p
 ### Long-Term Market Trends
 
 <p align="center">
-  <img src="./images/monthly_average_rental_prices.png" alt="Monthly Average Rental Prices in Italy" width="60%">
+  <img src="/images/monthly_average_rental_prices.png" alt="Monthly Average Rental Prices in Italy" width="60%">
 </p>
 
 Our long-term analysis spanning from 2015 to 2023 reveals several critical market shifts:
@@ -299,7 +309,7 @@ This stabilization suggests the market has matured after the pandemic disruption
 ### City-Specific Dynamics
 
 <p align="center">
-  <img src="./images/monthly_average_rental_prices_by_city.png" alt="Monthly Average Rental Prices by City" width="60%">
+  <img src="/images/monthly_average_rental_prices_by_city.png" alt="Monthly Average Rental Prices by City" width="60%">
 </p>
 
 Comparing major Italian cities reveals dramatically different rental markets and recovery patterns:
@@ -336,7 +346,7 @@ Test set performance Metrics on original price scale (€):
 - **RMSE: €606.04** (Root Mean Squared Error)
 - **R²: 0.7406** (Coefficient of Determination)
 
-The model achieves 82.32% prediction accuracy on test data, making it reliable enough for real-world use while acknowledging the inherent unpredictability of real estate markets.
+The model achieves 82.32% confidence prediction level of 82.32% on test data, making it reliable enough for real-world use while acknowledging the inherent unpredictability of real estate markets.
 
 ### Try It Yourself
 
