@@ -4,8 +4,6 @@ excerpt: "<img src='/images/header.jpg' style='float:right; margin:10px; width:4
 collection: portfolio
 ---
 
-# 🏠 Rentelligence AI: Predicting Italian Rental Prices
-
 ## Table of Contents
 - [The Journey Behind the Numbers](#the-journey-behind-the-numbers)
 - [1. Project Overview](#1-project-overview)
