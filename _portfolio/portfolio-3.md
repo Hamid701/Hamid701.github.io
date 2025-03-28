@@ -213,7 +213,7 @@ Using GeoPandas and Folium, we created an interactive choropleth map that shows:
 ### Regional Price Comparison
 
 <p align="center">
-  <img src="/images/regional_price_bar_chart.png" alt="Average Rental Prices by Region in Italy" width="60%">
+  <img src="/images/regional_price_bar_chart.png" alt="Average Rental Prices by Region in Italy" width="80%">
 </p>
 
 The chart shows that there are essentially two rental markets in the country.
@@ -229,7 +229,7 @@ As we move down the chart, we see rental prices gradually decline through the ce
 ### Static Choropleth Map
 
 <p align="center">
-  <img src="/images/italy_rental_price_map.png" alt="Italy Rental Price Map" width="50%">
+  <img src="/images/italy_rental_price_map.png" alt="Italy Rental Price Map" width="70%">
 </p>
 
 The map above clearly illustrates the concentration of high rental prices in northern regions like Lombardia and Toscana, as well as in Sardegna, while highlighting more affordable options in central and southern regions.
@@ -246,14 +246,14 @@ This map tells an old story about Italy: rich north, middle-priced center, and m
 ### Price Efficiency Analysis
 
 <p align="center">
-  <img src="/images/price_per_sqm_map.png" alt="Average Rental Price per Square Meter by Region in Italy" width="50%">
+  <img src="/images/price_per_sqm_map.png" alt="Average Rental Price per Square Meter by Region in Italy" width="70%">
 </p>
 
-The price per square meter chart above reveals a different perspective on value. Lombardia stands out with the darkest blue, indicating renters pay over €24 per square meter - the highest in Italy. This efficiency metric highlights where renters get the least space for their money.
+The price per square meter chart above reveals a different perspective on value. Lombardia stands out with the darkest blue, indicating renters pay over €24 per square meter, the highest in Italy. This efficiency metric highlights where renters get the least space for their money.
 
 Interestingly, while Sardegna has high overall prices, its price per square meter is more moderate, suggesting larger properties. Toscana and Lazio also demand premium rates per square meter, reflecting the high demand in Florence and Rome.
 
-The lighter shades across southern Italy confirm these regions offer not just lower absolute prices but also better value in terms of space - often below €10 per square meter.
+The lighter shades across southern Italy confirm these regions offer not just lower absolute prices but also better value in terms of space, often below €10 per square meter.
 
 ## 4. Time Series Analysis: Uncovering Market Dynamics
 
@@ -262,7 +262,7 @@ Our temporal analysis revealed fascinating patterns in Italy's rental market tha
 ### Monthly Price Patterns
 
 <p align="center">
-  <img src="/images/rental_prices_by_month.png" alt="Rental Prices by Month" width="60%">
+  <img src="/images/rental_prices_by_month.png" alt="Rental Prices by Month" width="80%">
 </p>
 
 The monthly price chart reveals clear seasonal patterns in Italy's rental market. Both mean and median prices follow similar trajectories throughout the year, with notable peaks in November-January and July-August. This dual-peak pattern reflects Italy's academic calendar and tourism seasons:
@@ -276,7 +276,7 @@ The consistent gap between mean and median prices (approximately €400-500) ind
 ### Seasonal Analysis
 
 <p align="center">
-  <img src="/images/average_rental_prices_by_season.png" alt="Average Rental Prices by Season" width="60%">
+  <img src="/images/average_rental_prices_by_season.png" alt="Average Rental Prices by Season" width="80%">
 </p>
 
 Breaking down prices by season reveals that Winter (1) and Fall (4) command the highest rental prices in Italy, averaging over €1,250 per month. This contradicts the common assumption that summer would be the most expensive season.
@@ -292,7 +292,7 @@ This pattern suggests strategic timing for those planning moves to Italy, with p
 ### Long-Term Market Trends
 
 <p align="center">
-  <img src="/images/monthly_average_rental_prices.png" alt="Monthly Average Rental Prices in Italy" width="60%">
+  <img src="/images/monthly_average_rental_prices.png" alt="Monthly Average Rental Prices in Italy" width="80%">
 </p>
 
 Our long-term analysis spanning from 2015 to 2023 reveals several critical market shifts:
@@ -307,7 +307,7 @@ This stabilization suggests the market has matured after the pandemic disruption
 ### City-Specific Dynamics
 
 <p align="center">
-  <img src="/images/monthly_average_rental_prices_by_city.png" alt="Monthly Average Rental Prices by City" width="60%">
+  <img src="/images/monthly_average_rental_prices_by_city.png" alt="Monthly Average Rental Prices by City" width="80%">
 </p>
 
 Comparing major Italian cities reveals dramatically different rental markets and recovery patterns:
@@ -344,7 +344,7 @@ Test set performance Metrics on original price scale (€):
 - **RMSE: €606.04** (Root Mean Squared Error)
 - **R²: 0.7406** (Coefficient of Determination)
 
-The model achieves 82.32% confidence prediction level of 82.32% on test data, making it reliable enough for real-world use while acknowledging the inherent unpredictability of real estate markets.
+The model achieves an 82.32% confidence prediction level of 82.32% on test data, making it reliable enough for real-world use while acknowledging the inherent unpredictability of real estate markets.
 
 ### Try It Yourself
 
