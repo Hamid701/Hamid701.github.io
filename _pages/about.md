@@ -9,7 +9,7 @@ redirect_from:
 
 ## Introduction:
 
-<img src="/images/header3.jpg" alt="Headere" style="float:right; margin:10px; width:350px; border-radius: 20px;">
+<img src="/images/header3.png" alt="Headere" style="float:right; margin:10px; width:350px; border-radius: 20px;">
 
 I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
 
