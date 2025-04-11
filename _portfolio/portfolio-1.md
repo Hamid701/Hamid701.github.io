@@ -143,8 +143,5 @@ The interactive dashboard provides an intuitive interface for exploring the mode
   </video>
 </div>
 
-Alternatively, you can:
-- [Download the demo video](files/Dash-Preview.mp4)
-
 ---
 
