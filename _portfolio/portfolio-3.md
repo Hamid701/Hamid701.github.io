@@ -26,6 +26,7 @@ collection: portfolio
   - [Interactive Exploration](#interactive-exploration)
   - [Smart Price Prediction](#smart-price-prediction)
   - [Try It Yourself](#try-it-yourself)
+  - [Full Video Demonstration](#full-video-demonstration)
   - [Future Directions](#future-directions)
 
 ## The Journey Behind the Numbers
@@ -350,6 +351,14 @@ The model achieves an 82.32% confidence prediction level of 82.32% on test data,
 
 Experience Rentelligence AI firsthand and discover fair rental prices across Italy:
 [Rentelligence AI App](https://rentelligence-ai.streamlit.app)
+
+### Full Video Demonstration
+<div align="center">
+  <video width="800" controls>
+    <source src="/files/Rentelligence-AI-Demo-Video.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ### Future Directions
 
