@@ -85,7 +85,7 @@ collection: portfolio
 
 ### The Data Source
 
-Our journey began with a dataset of over 20,000 Italian rental listings from Kaggle (https://www.kaggle.com/datasets/tommasoramella/italy-house-prices). This comprehensive collection of rental data was scraped from major Italian real estate platforms, providing us with a rich foundation for our analysis.
+Our journey began with a dataset of over 12,000 Italian rental listings from [Immobiliare.com](https://www.immobiliare.it/vendita-case/milano/?criterio=rilevanza) (https://github.com/bugasss/italy-house-pricing?tab=readme-ov-file). This comprehensive collection of rental data was scraped from major Italian real estate platforms, providing us with a rich foundation for our analysis.
 
 Each listing included details like:
 - Location (region, city)
