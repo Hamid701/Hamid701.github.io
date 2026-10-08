@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1160" role="img" aria-labelledby="title desc">
+  <title id="title">From question to checkable answer</title>
+  <desc id="desc">Four vertical steps show a maintenance question, handbook search, optional engine analysis, and a source-backed answer.</desc>
+  <defs>
+    <linearGradient id="mobile-flow-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10263b"/>
+      <stop offset="1" stop-color="#0e5368"/>
+    </linearGradient>
+    <marker id="mobile-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#79c8d5"/>
+    </marker>
+  </defs>
+  <rect width="600" height="1160" rx="28" fill="url(#mobile-flow-bg)"/>
+  <text x="42" y="63" fill="#ffffff" font-family="system-ui,Segoe UI,sans-serif" font-size="34" font-weight="700">One question, four clear steps</text>
+  <text x="42" y="101" fill="#afdbe4" font-family="system-ui,Segoe UI,sans-serif" font-size="22">The evidence remains visible throughout.</text>
+
+  <g stroke="#79c8d5" stroke-width="5" fill="none" marker-end="url(#mobile-arrow)">
+    <path d="M300 335V374"/>
+    <path d="M300 582V621"/>
+    <path d="M300 829V868"/>
+  </g>
+
+  <g font-family="system-ui,Segoe UI,sans-serif">
+    <g transform="translate(50 145)">
+      <rect width="500" height="190" rx="20" fill="#ffffff"/>
+      <circle cx="55" cy="53" r="28" fill="#e5f5f8"/>
+      <text x="55" y="63" text-anchor="middle" fill="#167d9a" font-size="28" font-weight="700">1</text>
+      <text x="105" y="61" fill="#173247" font-size="29" font-weight="700">Ask a question</text>
+      <text x="32" y="112" fill="#526979" font-size="23">Use everyday language. Name an engine</text>
+      <text x="32" y="147" fill="#526979" font-size="23">when an outlook is needed.</text>
+    </g>
+
+    <g transform="translate(50 392)">
+      <rect width="500" height="190" rx="20" fill="#ffffff"/>
+      <circle cx="55" cy="53" r="28" fill="#e5f5f8"/>
+      <text x="55" y="63" text-anchor="middle" fill="#167d9a" font-size="28" font-weight="700">2</text>
+      <text x="105" y="61" fill="#173247" font-size="29" font-weight="700">Find the guidance</text>
+      <text x="32" y="112" fill="#526979" font-size="23">Search selected FAA handbook pages</text>
+      <text x="32" y="147" fill="#526979" font-size="23">for relevant evidence.</text>
+    </g>
+
+    <g transform="translate(50 639)">
+      <rect width="500" height="190" rx="20" fill="#ffffff"/>
+      <circle cx="55" cy="53" r="28" fill="#fff0d6"/>
+      <text x="55" y="63" text-anchor="middle" fill="#a76514" font-size="28" font-weight="700">3</text>
+      <text x="105" y="61" fill="#173247" font-size="29" font-weight="700">Add engine data</text>
+      <text x="32" y="112" fill="#526979" font-size="23">Summarise sensor trends and estimate</text>
+      <text x="32" y="147" fill="#526979" font-size="23">remaining life when requested.</text>
+    </g>
+
+    <g transform="translate(50 886)">
+      <rect width="500" height="220" rx="20" fill="#ffffff"/>
+      <circle cx="55" cy="53" r="28" fill="#e4f5ed"/>
+      <text x="55" y="63" text-anchor="middle" fill="#26855f" font-size="28" font-weight="700">4</text>
+      <text x="105" y="61" fill="#173247" font-size="29" font-weight="700">Return evidence</text>
+      <text x="32" y="112" fill="#526979" font-size="23">Give a concise answer, source pages,</text>
+      <text x="32" y="147" fill="#526979" font-size="23">and clearly labelled estimates.</text>
+      <rect x="32" y="173" width="208" height="28" rx="14" fill="#e4f5ed"/>
+      <text x="136" y="193" text-anchor="middle" fill="#26855f" font-size="17" font-weight="700">CHECKABLE RESULT</text>
+    </g>
+  </g>
+</svg>
