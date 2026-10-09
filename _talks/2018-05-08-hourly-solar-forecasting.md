@@ -8,6 +8,14 @@ date: 2019-04-04
 location: "Rabat, Morocco"
 ---
 
+<div class="scholar-detail" markdown="1">
+
+<div class="scholar-detail__meta">
+  <p class="editorial-eyebrow">Conference talk · Rabat, Morocco</p>
+  <p><strong>Presented:</strong> 4 April 2019</p>
+  <a class="btn btn--info" href="/files/slides-hourly-solar-forecasting.pdf" download>Download slides</a>
+</div>
+
 The global situation of climate change is becoming increasingly serious due to the exhaustion of fossil fuels. In this study, we focus on solar energy, which has gained significant attention in recent decades as a sustainable alternative. Integrating solar energy into electricity networks requires reliable forecasting of solar resources to quantify available energy and optimize the transition between intermittent and conventional energy sources.
 
 Building on our previous research, which identified Artificial Neural Networks (ANNs) as a superior approach for daily global solar irradiance forecasting in Rabat, Morocco, this study investigates the **hourly forecasting case**. We compared two approaches:  
@@ -20,4 +28,4 @@ This work underscores the potential of ANNs in improving short-term solar energy
 
 ---
 
-<a href="/files/slides-hourly-solar-forecasting.pdf" download class="btn btn--primary">Download Slides</a>
+</div>

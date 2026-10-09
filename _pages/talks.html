@@ -5,12 +5,34 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<div class="editorial-index editorial-index--talks">
+  <header class="editorial-index__intro">
+    <p class="editorial-eyebrow">Speaking · Research communication · Solar energy</p>
+    <h2>Sharing technical work with clarity.</h2>
+    <p>Conference presentations on solar-resource forecasting, neural networks, and the practical integration of renewable energy into electricity systems.</p>
+    {% if site.talkmap_link == true %}
+      <a class="editorial-text-link" href="/talkmap.html">Explore the talk map</a>
+    {% endif %}
+  </header>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  <section class="editorial-list" aria-label="Talk and presentation list">
+    {% assign talks = site.talks | sort: "date" | reverse %}
+    {% for post in talks %}
+      <article class="editorial-card editorial-card--talk">
+        <div class="editorial-card__date">
+          <strong>{{ post.date | date: "%d" }}</strong>
+          <span>{{ post.date | date: "%b %Y" }}</span>
+        </div>
+        <div class="editorial-card__body">
+          <div class="editorial-card__meta">
+            <span>{{ post.type }}</span>
+            <span>{{ post.location }}</span>
+          </div>
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p>{{ post.venue | remove: "'" }}</p>
+          <a class="editorial-text-link" href="{{ post.url | relative_url }}">View presentation details</a>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+</div>

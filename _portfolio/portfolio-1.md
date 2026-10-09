@@ -1,16 +1,36 @@
 ---
 title: "Can AI Predict the Future of Solar Energy?"
-excerpt: "<img src='/images/transformer.jpg' style='float:right; margin:10px; width:400px; border-radius: 20px;'> <br/> Solar energy 🌞 is key to fighting climate change, but its variability makes it hard to rely on. Accurate forecasts of sunlight ☀️ (GHI) are essential for better energy planning, reducing costs, and improving grid stability. Discover how Transformer-based AI models are revolutionizing solar energy forecasting. This project introduces a new Transformer-based model to predict sunlight more accurately and efficiently than traditional methods. It achieves a 20% improvement in accuracy, helping energy providers integrate solar power more effectively. <br/><br/> <a href='https://github.com/Hamid701/GHI-Transformer-forecasting' target='_blank'><img src='https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white'></a>"
+excerpt: "A Transformer-based system for hour-ahead Global Horizontal Irradiance forecasting, with model comparison, hyperparameter optimization, and an interactive dashboard."
 collection: portfolio
 ---
+
+<div class="project-detail project-detail--solar" markdown="1">
+
+<section class="project-detail__hero">
+  <div>
+    <p class="project-detail__eyebrow">Time-series research</p>
+    <div class="project-detail__tags">
+      <span>Transformers</span>
+      <span>LSTM</span>
+      <span>Solar energy</span>
+      <span>Dash</span>
+    </div>
+    <h2>Forecasting sunlight one hour ahead.</h2>
+    <p>A research project comparing Transformer and recurrent models for Global Horizontal Irradiance forecasting, supported by an interactive dashboard and a published preprint.</p>
+    <div class="project-detail__actions">
+      <a class="btn btn--info" href="https://github.com/Hamid701/GHI-Transformer-forecasting" target="_blank" rel="noopener">View on GitHub</a>
+      <a class="btn" href="https://www.researchgate.net/publication/388350500_Transformer-Based_Global_Horizontal_Irradiance_Forecasting_A_Multi-Head_Attention_Approach_for_Hour-Ahead_Predictions" target="_blank" rel="noopener">Read the preprint</a>
+    </div>
+  </div>
+  <img src="/images/transformer.jpg" alt="Illustration representing Transformer-based solar-energy forecasting">
+</section>
 
 ## Overview 
 As the world grapples with the challenges of global warming, renewable energy sources like solar power are becoming increasingly critical. However, integrating solar energy into electricity grids requires **accurate forecasting** of solar resources to balance supply and demand efficiently. Traditional forecasting models, such as ARIMA and LSTM, have shown promise but face limitations in handling long-term dependencies and computational efficiency.
 
-In this project, I introduce a **novel Transformer-based approach** for **Global Horizontal Irradiance (GHI)** forecasting. By leveraging the **multi-head attention mechanism**, this model eliminates the sequential training bottleneck of recurrent models, enabling parallel processing and significantly improving both accuracy and training speed. The results demonstrate a **20% reduction in Root Mean Squared Error (RMSE)** compared to **LSTM models**, making it a game-changer for solar energy forecasting.
+In this project, I introduce a **novel Transformer-based approach** for **Global Horizontal Irradiance (GHI)** forecasting. By leveraging the **multi-head attention mechanism**, this model eliminates the sequential training bottleneck of recurrent models, enabling parallel processing and improving both accuracy and training speed. The results demonstrate a **20% reduction in Root Mean Squared Error (RMSE)** compared with the evaluated **LSTM model**.
 
 ### Why This Project Matters
-Why This Project Matters
 Solar energy is inherently intermittent due to its dependence on weather conditions. Accurate GHI forecasts enable:
 
 - **Optimized grid management** : Better integration of solar energy into existing grids.
@@ -18,14 +38,14 @@ Solar energy is inherently intermittent due to its dependence on weather conditi
 - **Improved energy planning** : Enhancing decision-making for energy storage and distribution.
 
 ### Objective
-This study implements advanced time series forecasting models to predict **(GHI)** using hourly
+This study implements advanced time-series forecasting models to predict **GHI** using hourly
 historical data. The implementation includes state-of-the-art models such as **Transformer** and **LSTM**,
 which focus on parallelization and handling long-term dependencies in time series data.
 
 ---
 
 ## Publication
-You can check the white preprint paper here:
+You can read the preprint here:
 - **Transformer-Based Global Horizontal Irradiance Forecasting: A Multi-Head Attention Approach for Hour-Ahead Predictions**  
   [Read the paper here](https://www.researchgate.net/publication/388350500_Transformer-Based_Global_Horizontal_Irradiance_Forecasting_A_Multi-Head_Attention_Approach_for_Hour-Ahead_Predictions)
 
@@ -37,12 +57,12 @@ You can check the white preprint paper here:
 The Transformer model uses a multi-head attention mechanism to capture both short-term and long-term dependencies in time series data. Unlike recurrent models, it processes all time steps simultaneously, enabling faster training and better generalization.
 
 ### 2. Interactive Dashboard
-To make the model accessible and actionable, I developed an interactive dashboard using Dash and Plotly . Key features include:
+To make the model accessible and actionable, I developed an interactive dashboard using Dash and Plotly. Key features include:
 
 - **Model comparison** : Compare predictions from Transformer and LSTM models.
 - **Real-time metrics** : Visualize RMSE, nRMSE, MAE, and MASE for selected models.
 - **Time range slider** : Focus on specific time periods for detailed analysis.
-- **Download functionality** : Export prediction data as ```.csv``` files for further use.
+- **Download functionality** : Export prediction data as `.csv` files for further use.
   
 ### 3. Advanced Hyperparameter Optimization
 Using state-of-the-art techniques like the Tree-Structured Parzen Estimator (TPE) algorithm, I optimized hyperparameters for both Transformer and LSTM models, ensuring optimal performance while minimizing computational overhead.
@@ -52,9 +72,9 @@ Using state-of-the-art techniques like the Tree-Structured Parzen Estimator (TPE
 ## Methodology
 
 ### Data Source
-The dataset consists of **hourly GHI** from 2006 to 2015 for Rabat, Morocco (33.97°N, -6.85°E), provided by the **Copernicus Atmosphere Monitoring Service (CAMS)** . The data was preprocessed using a **sliding window approach** to generate labeled input-output pairs for supervised learning.
+The dataset consists of **hourly GHI** from 2006 to 2015 for Rabat, Morocco (33.97°N, -6.85°E), provided by the **Copernicus Atmosphere Monitoring Service (CAMS)**. The data was preprocessed using a **sliding window approach** to generate labeled input-output pairs for supervised learning.
 
-Below is a visualization of the hourly Global Horizontal Irradiance (GHI) data and it's hourly distribution for the site Rabat, highlighting its variability over time.
+Below is a visualization of the hourly Global Horizontal Irradiance (GHI) data and its hourly distribution for Rabat, highlighting its variability over time.
 <div align="center">
   <img src="/images/ghi_vs_time.png" alt="Time Series Visualization" width="45%">
   <img src="/images/GHI_Distribution_by_Hour.png" alt="GHI Distribution by Hour" width="45%"/>
@@ -144,4 +164,6 @@ The interactive dashboard provides an intuitive interface for exploring the mode
 </div>
 
 ---
+
+</div>
 

@@ -5,32 +5,33 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="editorial-index editorial-index--publications">
+  <header class="editorial-index__intro">
+    <p class="editorial-eyebrow">Research · Forecasting · Applied mathematics</p>
+    <h2>Research grounded in real forecasting problems.</h2>
+    <p>My publications trace the development of my work in solar-energy forecasting, from statistical and neural-network baselines to attention-based time-series models.</p>
+    {% if site.author.googlescholar %}
+      <a class="editorial-text-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">View my Google Scholar profile</a>
+    {% endif %}
+  </header>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+  <section class="editorial-list" aria-label="Publication list">
+    {% assign publications = site.publications | sort: "date" | reverse %}
+    {% for post in publications %}
+      <article class="editorial-card">
+        <div class="editorial-card__meta">
+          <span>{{ post.date | date: "%Y" }}</span>
+          <span>{{ post.venue }}</span>
+        </div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+        <div class="editorial-card__actions">
+          <a class="btn btn--info" href="{{ post.url | relative_url }}">Read abstract</a>
+          {% if post.paperurl %}
+            <a class="btn" href="{{ post.paperurl }}" target="_blank" rel="noopener">Open paper</a>
+          {% endif %}
+        </div>
+      </article>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+  </section>
+</div>

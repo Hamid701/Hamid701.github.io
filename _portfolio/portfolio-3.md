@@ -1,8 +1,31 @@
 ---
 title: "Can AI predict the price of an Italian apartment?"
-excerpt: "<img src='/images/header.jpg' style='float:right; margin:10px; width:400px; border-radius: 20px;'> <br/> Ever wondered if you're paying too much for your Italian apartment? 🏠 With prices varying wildly from Milan to Naples, finding a fair rental price in Italy can feel like navigating a maze blindfolded. That's where data science steps in to help! I built this tool after my own frustrating experience searching for apartments in Italy, where prices seemed arbitrary and information was scattered. Using machine learning (specifically XGBoost), Rentelligence AI can predict rental prices with 74% accuracy (R² score) and a confidence level of 82.32%, helping renters and landlords navigate Italy's diverse property landscape more effectively. The model achieves a mean absolute error of just €303, making it a reliable tool for real-world applications. <br/><br/> <a href='https://github.com/Hamid701/rentelligence-ai' target='_blank'><img src='https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white'></a> <a href='https://rentelligence-ai.streamlit.app' target='_blank'><img src='https://img.shields.io/badge/Try_it_on_Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white'></a>"
+excerpt: "A rental-market exploration and price-estimation application built from Italian property listings, regional maps, seasonal analysis, and XGBoost."
 collection: portfolio
 ---
+
+<div class="project-detail project-detail--rentelligence" markdown="1">
+
+<section class="project-detail__hero">
+  <div>
+    <p class="project-detail__eyebrow">Data product · Italian rental market</p>
+    <div class="project-detail__tags">
+      <span>XGBoost</span>
+      <span>Geospatial analysis</span>
+      <span>Time series</span>
+      <span>Streamlit</span>
+    </div>
+    <h2>Making an unfamiliar rental market easier to explore.</h2>
+    <p>Rentelligence AI combines regional analysis, temporal patterns, and machine learning to help users explore Italian rental prices and estimate a property's monthly rent.</p>
+    <div class="project-detail__actions">
+      <a class="btn btn--info" href="https://rentelligence-ai.streamlit.app" target="_blank" rel="noopener">Try the live app</a>
+      <a class="btn" href="https://github.com/Hamid701/rentelligence-ai" target="_blank" rel="noopener">View on GitHub</a>
+    </div>
+  </div>
+  <img src="/images/header.jpg" alt="Italian city buildings representing the Rentelligence AI project">
+</section>
+
+<div class="project-detail__toc" markdown="1">
 
 ## Table of Contents
 - [The Journey Behind the Numbers](#the-journey-behind-the-numbers)
@@ -29,63 +52,59 @@ collection: portfolio
   - [Full Video Demonstration](#full-video-demonstration)
   - [Future Directions](#future-directions)
 
+</div>
+
 ## The Journey Behind the Numbers
 
-<table>
-  <tr>
-    <td style="vertical-align: top; width: 50%;">
-      <p>Have you ever moved to a new city and wondered if you're paying too much for rent? That question hit me when I was planning a move to Italy. With rental prices varying wildly across different regions and cities, I needed a way to cut through the confusion and find fair prices.</p>
-      <p>That's how Rentelligence AI was born - a data science project that turned into a practical tool for anyone navigating the Italian rental market. What started as a personal quest to understand fair rental prices evolved into a comprehensive analysis of over 20,000 listings across the country, revealing fascinating patterns about how location, timing, and property features influence what Italians pay for housing.</p>
-      <p>Whether you're a renter wondering if you're getting a fair deal, a property owner trying to set the right price, or a newcomer to Italy facing an unfamiliar market, this tool provides data-driven insights to help you make informed decisions. It's also valuable for investors seeking the best rental returns and anyone curious about Italy's diverse housing landscape, from the expensive financial hub of Milan to the charming, affordable towns of southern Italy.</p>
-      <p>
-        <a href="https://rentelligence-ai.streamlit.app" style="display: inline-block; background-color: #FF4B4B; color: white; padding: 8px 16px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: all 0.3s ease;">
-          ✨ Try Rentelligence AI
-        </a>
-      </p>
-    </td>
-    <td style="vertical-align: top;">
-      <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
-        <img src="/images/header.jpg" alt="Italian Rental Market Analysis" width="3000px" style="border-radius: 15px; transition: opacity 0.3s ease;">
-      </div>
-    </td>
-  </tr>
-</table>
+<div class="project-detail__split" markdown="1">
+<div markdown="1">
+
+Have you ever moved to a new city and wondered if you're paying too much for rent? That question hit me when I was planning a move to Italy. With rental prices varying widely across different regions and cities, I needed a way to cut through the confusion and find fair prices.
+
+That's how Rentelligence AI began: a data-science project that turned into a practical tool for anyone navigating the Italian rental market. What started as a personal effort to understand fair rental prices evolved into an analysis of more than 12,000 listings across the country, revealing how location, timing, and property features influence housing costs.
+
+Whether you're a renter, a property owner, a newcomer to Italy, or simply curious about the country's housing landscape, the application provides data-driven context for more informed decisions.
+
+</div>
+<img src="/images/header2.jpg" alt="Italy rental-market map from Rentelligence AI">
+</div>
 
 
 ## 1. Project Overview
 
-<table>
-  <tr>
-    <td style="vertical-align: top; width: 50%; padding-right: 20px;">
-      <p>Rentelligence AI is a machine learning application that predicts rental prices for properties across Italy. It combines geographic data visualization with predictive modeling to help users:</p>
-      <ul>
-        <li>Explore average rental prices across different Italian regions</li>
-        <li>Get personalized price estimates based on property features</li>
-        <li>Make more informed decisions when searching for rentals</li>
-      </ul>
-      <p>The project uses XGBoost regression to deliver accurate price predictions based on location, property size, amenities, and other key features.</p>
-      <p><strong>Tech Stack:</strong></p>
-      <ul>
-        <li>Python (pandas, numpy, scikit-learn, XGBoost)</li>
-        <li>Streamlit for the web application</li>
-        <li>GeoPandas and Folium for geographic visualization</li>
-        <li>Docker for containerization</li>
-      </ul>
-    </td>
-    <td style="vertical-align: top;">
-      <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
-        <img src="/images/header2.jpg" alt="Italy Rental Market Map" width="1300px" style="border-radius: 15px; transition: opacity 0.3s ease;">
-      </div>
-    </td>
-  </tr>
-</table>
+Rentelligence AI is a machine-learning application that predicts rental prices for properties across Italy. It combines geographic data visualization with predictive modeling to help users:
+
+- Explore average rental prices across different Italian regions
+- Get personalized price estimates based on property features
+- Make more informed decisions when searching for rentals
+
+The project uses XGBoost regression to generate price estimates from location, property size, amenities, and other key features.
+
+<div class="project-detail__feature-grid">
+  <article class="project-detail__feature">
+    <h3>Modeling</h3>
+    <p>Python, pandas, NumPy, scikit-learn, and XGBoost</p>
+  </article>
+  <article class="project-detail__feature">
+    <h3>Application</h3>
+    <p>Streamlit with an interactive prediction workflow</p>
+  </article>
+  <article class="project-detail__feature">
+    <h3>Geospatial analysis</h3>
+    <p>GeoPandas and Folium for regional exploration</p>
+  </article>
+  <article class="project-detail__feature">
+    <h3>Packaging</h3>
+    <p>Docker for a reproducible application environment</p>
+  </article>
+</div>
 
 
 ## 2. Data Overview: From Raw Listings to Insights
 
 ### The Data Source
 
-Our journey began with a dataset of over 12,000 Italian rental listings from [Immobiliare.com](https://www.immobiliare.it/vendita-case/milano/?criterio=rilevanza) (https://github.com/bugasss/italy-house-pricing?tab=readme-ov-file). This comprehensive collection of rental data was scraped from major Italian real estate platforms, providing us with a rich foundation for our analysis.
+The project began with a [public dataset of more than 12,000 Italian property listings](https://github.com/bugasss/italy-house-pricing), originally collected from Immobiliare.com. This collection provided a rich foundation for the analysis.
 
 Each listing included details like:
 - Location (region, city)
@@ -338,14 +357,13 @@ The app's interactive map allows users to:
 
 The heart of Rentelligence AI is its prediction engine, which uses our trained XGBoost model to:
 - Generate personalized rental estimates based on 15+ property features.
-- Provide confidence intervals to understand the potential price range.
 
-Test set performance Metrics on original price scale (€):
+Test-set performance metrics on the original price scale (€):
 - **MAE: €303.62** (Mean Absolute Error)
 - **RMSE: €606.04** (Root Mean Squared Error)
 - **R²: 0.7406** (Coefficient of Determination)
 
-The model achieves an 82.32% confidence prediction level of 82.32% on test data, making it reliable enough for real-world use while acknowledging the inherent unpredictability of real estate markets.
+On the held-out test set, the model explained approximately 74% of the observed variation in rental prices. Its mean absolute error was approximately €304. These results describe performance on the available dataset and do not guarantee the accuracy of an individual estimate.
 
 ### Try It Yourself
 
@@ -374,3 +392,5 @@ If you're planning a move to Italy or just curious about rental prices there, gi
 
 **GitHub Repository**: [GitHub](https://github.com/hamid701/rentelligence-ai)  
 **Live Demo**: [Streamlit app](https://rentelligence-ai.streamlit.app)
+
+</div>
