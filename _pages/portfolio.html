@@ -1,14 +1,72 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Selected projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<div class="portfolio-index">
 
+<header class="portfolio-index__intro">
+  <p class="home-eyebrow">Applied AI · Machine learning · Data products</p>
+  <h2>From research question to working system.</h2>
+  <p>These projects show how I approach applied problems: establish a useful baseline, choose measurable evaluation criteria, build an interface people can use, and explain what the result proves, where it helps, and where its limits begin.</p>
+</header>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="portfolio-list" aria-label="Selected projects">
+  <article class="portfolio-card portfolio-card--featured">
+    <a class="portfolio-card__media" href="/portfolio/turbofan-maintenance-copilot/">
+      <img src="/images/turbofan-engine-hero.jpg" alt="Cutaway side view of a turbofan engine">
+    </a>
+    <div class="portfolio-card__body">
+      <div class="portfolio-card__meta"><span>Featured</span><span>RAG</span><span>Predictive maintenance</span></div>
+      <h2><a href="/portfolio/turbofan-maintenance-copilot/">Turbofan Maintenance Copilot</a></h2>
+      <p>An evidence-grounded maintenance assistant that combines hybrid handbook retrieval with deterministic sensor analysis and remaining-life prediction.</p>
+      <div class="portfolio-card__actions">
+        <a class="btn btn--info" href="/portfolio/turbofan-maintenance-copilot/">Read case study</a>
+        <a class="btn" href="https://github.com/Hamid701/turbofan-maintenance-copilot" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </article>
 
+  <article class="portfolio-card">
+    <a class="portfolio-card__media" href="/portfolio/portfolio-1/">
+      <img src="/images/transformer.jpg" alt="Illustration representing Transformer-based solar-energy forecasting">
+    </a>
+    <div class="portfolio-card__body">
+      <div class="portfolio-card__meta"><span>Time series</span><span>Transformers</span><span>Research</span></div>
+      <h2><a href="/portfolio/portfolio-1/">Solar Energy Forecasting</a></h2>
+      <p>A Transformer-based system for hour-ahead solar irradiance forecasting, with model comparison, hyperparameter optimization, and an interactive dashboard.</p>
+      <div class="portfolio-card__actions">
+        <a class="btn btn--info" href="/portfolio/portfolio-1/">View project</a>
+        <a class="btn" href="https://github.com/Hamid701/GHI-Transformer-forecasting" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="portfolio-card">
+    <a class="portfolio-card__media" href="/portfolio/portfolio-3/">
+      <img src="/images/header.jpg" alt="Italian city buildings representing the rental-price project">
+    </a>
+    <div class="portfolio-card__body">
+      <div class="portfolio-card__meta"><span>XGBoost</span><span>Geospatial analysis</span><span>Streamlit</span></div>
+      <h2><a href="/portfolio/portfolio-3/">Rentelligence AI</a></h2>
+      <p>An Italian rental-market explorer and price estimator built from property listings, regional maps, temporal analysis, and supervised machine learning.</p>
+      <div class="portfolio-card__actions">
+        <a class="btn btn--info" href="/portfolio/portfolio-3/">View project</a>
+        <a class="btn" href="https://rentelligence-ai.streamlit.app" target="_blank" rel="noopener">Live app</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="portfolio-secondary">
+  <div>
+    <p class="home-eyebrow">In development</p>
+    <h2>Football Match Prediction</h2>
+    <p>A probability-based match prediction experiment. The repository is available, while the complete evaluation and case study are still being prepared.</p>
+  </div>
+  <a class="btn" href="https://github.com/Hamid701/BetWinner" target="_blank" rel="noopener">View repository</a>
+</section>
+
+</div>

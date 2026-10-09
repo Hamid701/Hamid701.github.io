@@ -1,43 +1,130 @@
 ---
 permalink: /
-title: "Welcome to My Portfolio"
+title: "Applied AI, built for evidence and impact"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-## Introduction:
+<div class="portfolio-home" markdown="1">
 
-<img src="/images/header3.png" alt="Headere" style="float:right; margin:10px; width:350px; border-radius: 20px;">
+<section class="home-intro">
+  <p class="home-eyebrow">Data scientist · Applied AI engineer · Researcher</p>
+  <h2>I build AI systems people can inspect, test, and use.</h2>
+  <p class="home-lead">I enjoy taking ideas that begin as mathematical questions and turning them into tools people can actually use. My path from teaching and research into applied AI shapes how I work: I stay curious, explain decisions clearly, and treat uncertainty honestly.</p>
+  <p>For me, a good model is only one part of the job. I also build the system around it, including reliable data flows, explicit limitations, measurable evaluation, secure interfaces, and monitoring after deployment.</p>
+  <div class="home-actions">
+    <a class="btn btn--info" href="/portfolio/">Explore my projects</a>
+    <a class="btn" href="/files/resume.pdf">View my resume</a>
+    <a class="home-text-link" href="mailto:ettayyebi.hamid@gmail.com">Contact me</a>
+  </div>
+</section>
 
-I’m a data scientist, researcher, and former mathematics educator passionate about uncovering patterns in complex systems and solving real-world problems. My journey blends advanced academic training with practical applications, bridging the gap between theory and actionable insights.
+<section class="home-profile-grid" aria-label="Professional profile">
+  <div class="home-profile-card">
+    <span class="home-profile-card__label">Current work</span>
+    <h3>Industrial Data Scientist &amp; AI Engineer</h3>
+    <p>I work with engineers on production analytics for complex equipment, using sensor data, time-series methods, and machine learning.</p>
+  </div>
+  <div class="home-profile-card">
+    <span class="home-profile-card__label">Private delivery</span>
+    <h3>Three confidential company projects</h3>
+    <p>I have taken three internal analytics projects from problem understanding through validation and production support. Their code, data, and operational details cannot be shared publicly.</p>
+  </div>
+  <div class="home-profile-card">
+    <span class="home-profile-card__label">How I work</span>
+    <h3>Research discipline, product thinking</h3>
+    <p>I combine mathematical reasoning with practical engineering, clear communication, and careful treatment of uncertainty.</p>
+  </div>
+</section>
 
-## My Journey: 
+## Featured work
 
-My academic foundation began with a Master’s in Mathematics and Applications, where I graduated at the top of my class. Driven by a curiosity for applied mathematics and its potential to solve real-world challenges, I pursued a Ph.D. in Applied Mathematics, Statistics, and Deep Learning at Mohammed V University.
+<div class="home-project-grid">
+  <article class="home-project-card home-project-card--featured">
+    <a class="home-project-card__image" href="/portfolio/turbofan-maintenance-copilot/">
+      <img src="/images/turbofan-engine-hero.jpg" alt="Cutaway side view of a turbofan engine">
+    </a>
+    <div class="home-project-card__body">
+      <p class="home-card-eyebrow">RAG · Predictive maintenance · Cloud</p>
+      <h3><a href="/portfolio/turbofan-maintenance-copilot/">Turbofan Maintenance Copilot</a></h3>
+      <p>An evidence-grounded assistant that connects FAA maintenance guidance with sensor-based engine-health estimates. It reconstructs citations, refuses unsupported questions, and runs as a monitored cloud service.</p>
+      <div class="home-card-links">
+        <a href="/portfolio/turbofan-maintenance-copilot/">Read the case study</a>
+        <a href="https://github.com/Hamid701/turbofan-maintenance-copilot" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </article>
 
-During my four years in the Ph.D. program, I conducted research in time series forecasting and deep learning models for solar energy predictions. My work focused on developing and optimizing artificial neural networks, achieving significant improvements in forecasting accuracy. This research has direct implications for sustainable energy management and renewable energy systems.
-While I ultimately decided to transition out of the program to pursue applied roles in data science and machine learning, my time in the Ph.D. program equipped me with advanced skills in:
+  <article class="home-project-card">
+    <a class="home-project-card__image" href="/portfolio/portfolio-1/">
+      <img src="/images/transformer.jpg" alt="Illustration representing Transformer-based solar-energy forecasting">
+    </a>
+    <div class="home-project-card__body">
+      <p class="home-card-eyebrow">Time series · Transformers · Research</p>
+      <h3><a href="/portfolio/portfolio-1/">Solar Energy Forecasting</a></h3>
+      <p>A Transformer model for hour-ahead Global Horizontal Irradiance forecasting, supported by model comparison, hyperparameter optimization, and an interactive dashboard.</p>
+      <div class="home-card-links">
+        <a href="/portfolio/portfolio-1/">View project</a>
+        <a href="https://github.com/Hamid701/GHI-Transformer-forecasting" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </article>
 
-- **Machine Learning & AI**: Building and deploying models to solve complex problems.
-- **Time Series Forecasting**: Predicting future trends with precision.
-- **Data Analysis & Visualization**: Transforming raw data into actionable insights.
-- **Research & Problem-Solving**: Tackling open-ended challenges with creativity and curiosity.
+  <article class="home-project-card">
+    <a class="home-project-card__image" href="/portfolio/portfolio-3/">
+      <img src="/images/header.jpg" alt="Italian city buildings representing the rental-price project">
+    </a>
+    <div class="home-project-card__body">
+      <p class="home-card-eyebrow">XGBoost · Geospatial analysis · Streamlit</p>
+      <h3><a href="/portfolio/portfolio-3/">Rentelligence AI</a></h3>
+      <p>A rental-market analysis and price-estimation application built from Italian property listings, regional maps, seasonal trends, and supervised machine learning.</p>
+      <div class="home-card-links">
+        <a href="/portfolio/portfolio-3/">View project</a>
+        <a href="https://rentelligence-ai.streamlit.app" target="_blank" rel="noopener">Live app</a>
+      </div>
+    </div>
+  </article>
+</div>
 
-## Beyond the Algorithms:
+## What I bring to a project
 
-As Freeman Dyson once described, thinkers can be classified as "birds" (who see broad connections) or "frogs" (who dive deep into details). I consider myself a "would-be bird", constantly seeking the bigger picture in the vast landscape of data and knowledge. I am fascinated by the philosophical foundations of AI and mathematics. I often ponder questions such as: What makes an algorithm truly "intelligent"? Can mathematical models ever fully capture the complexity of human decision-making? How does data science shape our understanding
-of uncertainty and prediction?
+<div class="home-capability-grid">
+  <div class="home-capability">
+    <h3>Reliable AI systems</h3>
+    <p>RAG, structured outputs, evaluation, refusal behavior, source grounding, and observable model calls.</p>
+  </div>
+  <div class="home-capability">
+    <h3>Forecasting &amp; predictive modeling</h3>
+    <p>Statistics, time-series forecasting, sensor data, feature engineering, tree-based models, and neural networks.</p>
+  </div>
+  <div class="home-capability">
+    <h3>Production engineering</h3>
+    <p>Python APIs, PostgreSQL, testing, containers, cloud deployment, security controls, and monitoring.</p>
+  </div>
+  <div class="home-capability">
+    <h3>Research communication</h3>
+    <p>Mathematical reasoning, experimental design, peer-reviewed work, technical writing, and clear explanations.</p>
+  </div>
+</div>
 
-## My work:
+## Experience and research foundation
 
-- Published peer-reviewed research on artificial neural networks for solar energy forecasting.
-- Developed Transformer-based models that significantly improved forecasting accuracy.
-- Contributed to advancing methodologies in renewable energy predictions.
-- Explore the Portfolio section to see other projects I’ve worked on.
+I currently work as a Data Scientist and AI Engineer on industrial analytics. I collaborate with engineering teams on sensor-based monitoring, predictive maintenance, and production decision support, and I have delivered three internal projects.
 
-## Let’s Connect:
+My foundation is in applied mathematics and statistics. After graduating at the top of my Master's class, I spent four years conducting doctoral research in time-series forecasting and deep learning for solar-energy prediction at Mohammed V University.
 
-I’m always excited to collaborate on new projects, discuss ideas, or explore opportunities at the intersection of data science, AI, and real-world impact. Feel free to reach out via email or LinkedIn or have fun exploring my projects. 
+Together, these experiences taught me to move between theory and production: understand the physical problem, validate the data, build a defensible method, and support it after deployment.
 
+<section class="home-contact">
+  <p class="home-eyebrow">Open to applied AI and data-science opportunities</p>
+  <h2>Let’s build something useful.</h2>
+  <p>I’m based in Rome and welcome conversations about reliable AI, machine learning, research collaboration, and product-focused data science.</p>
+  <div class="home-actions home-actions--center">
+    <a class="btn btn--info" href="mailto:ettayyebi.hamid@gmail.com">Email me</a>
+    <a class="btn" href="https://www.linkedin.com/in/ett-hamid" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+
+</div>
