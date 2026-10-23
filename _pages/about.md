@@ -10,7 +10,7 @@ redirect_from:
 <div class="portfolio-home" markdown="1">
 
 <section class="home-intro">
-  <p class="home-eyebrow">Data scientist · Applied AI engineer · Researcher</p>
+  <p class="home-eyebrow">Data scientist · AI engineer · Researcher</p>
   <h2>I build AI systems people can inspect, test, and use.</h2>
   <p class="home-lead">I enjoy taking ideas that begin as mathematical questions and turning them into tools people can actually use. My path from teaching and research into applied AI shapes how I work: I stay curious, explain decisions clearly, and treat uncertainty honestly.</p>
   <p>For me, a good model is only one part of the job. I also build the system around it, including reliable data flows, explicit limitations, measurable evaluation, secure interfaces, and monitoring after deployment.</p>
